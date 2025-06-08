@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <title>เติมเงิน</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h3>ยินดีต้อนรับ <span id="currentUser"></span></h3>
+    <p>เลือกจำนวนเงินที่ต้องการเติม:</p>
+    <input type="number" id="amount" placeholder="จำนวนเงินที่ต้องการเติม" style="padding:10px; width:100%; font-size:16px;">
+      <option value="10">10 บาท</option>
+      <option value="50">50 บาท</option>
+      <option value="100">100 บาท</option>
+    
+    <br/><br/>
+    <button class="submit-btn" onclick="topup()">เติมเงิน</button>
+    <p id="result"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
